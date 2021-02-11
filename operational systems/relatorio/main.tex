@@ -1,0 +1,174 @@
+\documentclass [12pt,oneside] {article}
+
+\include{packages} % incluir pacotes e configura��es
+
+%=====================================================
+
+\begin {document}
+
+\title {Relatorio P0 \LaTeX}
+\author {Arianne P. Bortolan}
+\date {Agosto de 2016}
+\maketitle
+
+%=====================================================
+
+\section{Introdu��o}
+
+Este � um modelo e exemplo de relat�rio preparado em \LaTeX. Para obter os melhores resultados, compile este modelo usando a seguinte seq��ncia de passos:
+
+\begin{footnotesize}
+\begin{verbatim}
+> latex  main                 // compila��o inicial
+> bibtex main                 // gera refer�ncias
+> latex  main                 // compila��o final
+> dvips -tA4 -Ppdf main.dvi   // gera o PostScript
+> ps2pdf main.ps              // converte PostScript em PDF
+\end{verbatim}
+\end{footnotesize}
+
+Um arquivo \texttt{Makefile} foi preparado Para facilitar a compila��o deste documento. Para conhecer seu funcionamento, basta digitar \texttt{make} no diret�rio principal deste modelo.
+
+Um bom guia introdut�rio de \LaTeX\ dispon�vel na Internet � \cite{oetiker07}, que tamb�m tem uma vers�o em portugu�s. Para t�picos mais avan�ados consulte \cite{goossens93}.
+
+%=====================================================
+
+\section{Estrutura do texto}
+
+Para melhorar a legibilidade do texto, deve ser extremamente evitado o uso de sub-divis�es mais profundas que a sub-se��o (por exemplo, sub-sub-se��es). Se elas forem absolutamente necess�rias, n�o devem ser numeradas. Deve-se analisar a possibilidade de uso de uma lista de itens em seu lugar. O n�mero de n�veis de texto do documento n�o deve exceder dois: se��o e sub-se��o. O uso de mais que dois n�veis dificulta a leitura e prejudica muito a est�tica do texto.
+
+%=====================================================
+
+\section{Exemplo de figura}
+
+A forma sugerida para incluir figuras em um documento \LaTeX\ � import�-las no formato EPS (\emph{Extended PostScript}), usando o pacote \texttt{epsfig}. A maior parte das ferramentas permite exportar figuras em formato EPS (a figura do exemplo foi produzida com o \emph{Inkscape}, um programa livre para Windows e Linux). A figura \ref{comun-intra-inter} mostra um exemplo de inclus�o de figura nesse formato. Para mais informa��es consulte \cite{goossens93}.
+
+% exemplo de inser��o de figura
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=12cm]{exemplo.eps}
+\caption{Comunica��o inter-processos.}
+\label{comun-intra-inter}
+\end{figure}
+
+%=====================================================
+
+\section{Exemplo de tabela}
+
+Tabelas s�o elementos importantes de um documento. No \LaTeX\ as tabelas podem ser objetos flutuantes (definidas no ambiente \texttt{table} e referenciadas por n�meros usando \texttt{label} e \texttt{ref}) ou objetos fixos simples, criados pelo ambiente \texttt{tabular}. A tabela \ref{modelos} � um exemplo de tabela flutuante, cuja posi��o no texto pode variar em fun��o das quebras de p�gina.
+
+\begin{table}[!htp]
+\centering
+\caption{Os 16 modelos centrais do UCON$_{\mathrm{ABC}}$}
+\label{modelos}
+\begin{tabular}{|c|cccc|}
+\cline{2-5}
+\multicolumn{1}{c|}{}& 0 (imut�vel) & 1 (\emph{pre-update}) & 2 (\emph{on-update}) & 3 (\emph{pos-update}) \\
+\hline
+\texttt{preA} & \textbullet & \textbullet & -- & \textbullet \\
+\hline
+\texttt{onA} & \textbullet & \textbullet & \textbullet & \textbullet \\
+\hline
+\texttt{preB} & \textbullet & \textbullet & -- & \textbullet \\
+\hline
+\texttt{onB} & \textbullet & \textbullet & \textbullet & \textbullet \\
+\hline
+\texttt{preC} & \textbullet & -- & -- & -- \\
+\hline
+\texttt{onC} & \textbullet & -- & -- & -- \\
+\hline
+\end{tabular}
+\end{table}
+
+%=====================================================
+
+\section{Exemplo de equa��o}
+
+Equa��es podem estar dentro do texto, como esta: $E=m\times c�$, ou destacadas e numeradas como segue:
+
+\begin{equation}
+E = m \times c^2
+\end{equation}
+
+%=====================================================
+
+\section{Exemplos de c�digo-fonte}
+
+C�digos-fonte podem ser produzidos de forma simples atrav�s do ambiente \texttt{verbatim}, como mostra este exemplo:
+
+\begin{footnotesize}
+\begin{verbatim}
+#include <stdio.h>
+
+int main (int argc, char *argv[])
+{
+   int i ;                           // uma vari�vel local
+
+   for (i=0; i< 100; i++)            // um la�o for
+      printf ("i vale %d\n", i) ;    // uma sa�da na tela
+}
+\end{verbatim}
+\end{footnotesize}
+
+No entanto, � prefer�vel usar pacotes especializados para a edi��o ou inclus�o de c�digos-fonte, como o pacote \texttt{listings}. Eis um exemplo de c�digo-fonte escrito com esse pacote:
+
+% exemplo de c�digo-fonte definido no pr�prio texto
+\begin{lstlisting}
+#include <stdio.h>
+
+int main (int argc, char *argv[])
+{
+   int i ;                           // uma vari�vel local
+
+   for (i=0; i< 100; i++)            // um la�o for
+      printf ("i vale %d\n", i) ;    // uma sa�da na tela
+}
+\end{lstlisting}
+
+Esse pacote tamb�m permite incluir c�digos-fonte de arquivos externos:
+
+% exemplo de c�digo-fonte incluso
+\lstinputlisting{exemplo.c}
+
+%=====================================================
+
+\section{Exemplo de algoritmo}
+
+Os pacotes \texttt{algorithm} e \texttt{algorithmic} permitem formatar algoritmos facilmente:
+
+\begin{algorithm}[H]
+\caption{A��es de $s_i$ ao encerrar um ciclo:}
+\label{on-period-ending}
+\begin{small}
+\begin{algorithmic}[1]
+\FORALL{$x \in \mathcal{K}_i$}
+  \STATE{$\mathit{banned}_i(x) \gets$ FALSE}
+  \STATE{$mi_i(x) \gets 0$}
+  \STATE{$mm_i(x) \gets 0$}
+  \STATE{$\mathit{age}_i(x) \gets \mathit{age}_i(x) + 1$}
+  \IF{$\mathit{age}_i(x) = \mathit{age}_\mathit{max}$}
+     \STATE{$\mathcal{K}_i \gets \mathcal{K}_i - \{x\}$}
+     \COMMENT{``esquece'' do servidor $x$}
+     \STATE{remove as informa��es locais sobre $x$}
+     \STATE{envia $\mathit{notify}(x,\mathit{undef})$ ao grupo de confian�a $\mathcal{T}_i$}
+  \ENDIF
+\ENDFOR
+\end{algorithmic}
+\end{small}
+\end{algorithm}
+
+%=====================================================
+
+\section{Conclus�o}
+
+Todo relat�rio deve encerrar com uma pequena conclus�o, resumindo os t�picos apresentados e os eventuais resultados obtidos pelo autor, quando for o caso.
+
+%=====================================================
+
+% defini��o do estilo e inclus�o da bibliografia
+\bibliographystyle{plain}
+\bibliography{referencias}
+
+\end{document}
+
+%=====================================================

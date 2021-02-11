@@ -1,0 +1,23 @@
+strict digraph "second" {
+
+    "G" [color="#ef6c00"]
+    "E" [color="#000000"]
+    "D" [color="#000000"]
+    "F" [color="#ef6c00"]
+    "C" [color="#000000"]
+    "B" [color="#2e7d32"]
+    "A" [color="#b71c1c"]
+
+    "E" -> "G"
+    "A" -> "G"
+    "F" -> "E"
+    "G" -> "D"
+    "B" -> "D"
+    "G" -> "C"
+    "E" -> "B"
+    "D" -> "B"
+    "F" -> "B"
+    "F" -> "A"
+    "C" -> "A"
+    "B" -> "A"
+}

@@ -1,0 +1,83 @@
+le-autoupgrade (1.0.1) unstable; urgency=medium
+
+  * Add parameter to force to keep local changes in unattended-upgrades.
+
+ -- Alessandro Elias <lesuporte@c3sl.ufpr.br>  Tue, 05 Feb 2019 10:54:51 -0200
+
+le-autoupgrade (1.0.0) unstable; urgency=medium
+
+  * Update version for internal control
+
+ -- Daniel Bissani Furlin <lesuporte@c3sl.ufpr.br>  Wed, 12 Sep 2018 11:17:05 -0300
+
+le-autoupgrade (0.1.3) testing; urgency=medium
+
+  * Add a option to dpkg that forces keeping the old conffiles in auto-updates
+
+ -- Gabriel Barreto <gsb16@inf.ufpr.br>  Tue, 03 Apr 2018 13:05:23 -0300
+
+le-autoupgrade (0.1.2) unstable; urgency=medium
+
+  * Remove testing from le-autoupgrade allowed origins
+
+ -- Rafael Sanfelice Castilho <rsc15@inf.ufpr.br>  Wed, 08 Aug 2018 10:52:42 -0300
+
+le-autoupgrade (0.1.1) unstable; urgency=medium
+
+  * Deploy to unstable
+
+ -- Rafael Sanfelice Castilho <rsc15@inf.ufpr.br>  Thu, 02 Aug 2018 10:32:17 -0300
+
+le-autoupgrade (0.1.0) testing; urgency=medium
+
+  * Add script to enable/disable le-autoupgrade
+
+ -- Andre Luis da Silva Machado <alsm14@inf.ufpr.br>  Fri, 16 Mar 2018 09:51:07 -0300
+
+le-autoupgrade (0.0.8) testing; urgency=medium
+
+  * Update manual page
+
+ -- Rafael Sanfelice Castilho <rsc15@inf.ufpr.br>  Wed, 14 Mar 2018 09:40:07 -0300
+
+le-autoupgrade (0.0.7) testing; urgency=medium
+
+  * Update manual page 
+
+ -- Rafael Sanfelice Castilho <rsc15@inf.ufpr.br>  Mon, 22 Jan 2018 15:17:47 -0200
+
+le-autoupgrade (0.0.6) testing; urgency=medium
+
+  * Fix manual page
+
+ -- Rafael Sanfelice Castilho <rsc15@inf.ufpr.br>  Fri, 22 Dec 2017 20:34:11 -0200
+
+le-autoupgrade (0.0.5) testing; urgency=medium
+
+  * Add dependencie to le-help
+
+ -- Rafael Sanfelice Castilho  <rsc15@inf.ufpr.br>  Fri, 22 Dec 2017 19:22:07 -0200
+
+le-autoupgrade (0.0.4) testing; urgency=medium
+
+  * Remove index.page from package
+
+ -- Rafael Sanfelice Castilho <rsc15@inf.ufpr.br>  Fri, 22 Dec 2017 19:14:40 -0200
+
+le-autoupgrade (0.0.3) testing; urgency=medium
+
+  * Add prerm to remove manual links
+
+ -- Rafael Sanfelice Castihlo <rsc15@inf.ufpr.br>  Fri, 22 Dec 2017 15:52:56 -0200
+
+le-autoupgrade (0.0.2) testing; urgency=medium
+
+  * Add help manual entries 
+
+ -- Rafael Sanfelice Castihlo <rsc15@inf.ufpr.br>  Fri, 22 Dec 2017 11:32:56 -0200
+
+le-autoupgrade (0.0.1) testing; urgency=medium
+
+  * Configure apt and unatended-upgrades for automatic update of the system
+
+ -- Diego Pasqualin <dpasqualin@c3sl.ufpr.br>  Wed, 02 Aug 2017 16:53:01 +0000

@@ -1,0 +1,18 @@
+Trabalho 2 - Disciplina de Criptografia
+
+Objetivo: Quebrar a cifra Playfair que utiliza chaves de 3 a 5 caracteres
+------------------------------------------------
+Alunos:
+
+Arianne P. Bortolan - GRR20140220
+Matheus C Horstmann - GRR20158600
+
+------------------------------------------------
+Línguagem utilizada: Python
+
+Informações: A quebra da cifra é realizada na força bruta, testando todas as palavras entre 4 a 6 caracteres encontradas no dicionario em português que podem ser chaves.
+Apesar do foco do trabalho ser quebra de textos em português, ele pode também quebrar textos em inglês, sendo somente necessário adicionar um dicionario em inglês na verificação.
+Para agilizar o processo de quebra foi utilizado paralelismo, o código utiliza o número máximo disponível de núcleos na máquina  lançando um processo diferente para quebra do código, tornando o processo de quebra muito mais rápido. 
+Para a filtragem de “melhor candidato” a texto quebrado, baseamos um sistema de score, em que compara as palavras do texto quebrado com palavras existentes no dicionario, cada palavra existente no texto que esteja no dicionario, o texto ganha 1 ponto no score, o texto com maior score, ou seja, maior número de palavras existentes nele que existem no dicionário, é o texto corretamente quebrado. 
+O problema com relação a isso era separação das palavras no texto, visto que ele perde seus espaços.
+Encontramos uma solução inteligente, (Créditos Generic Human do StackOverFlow: https://stackoverflow.com/questions/8870261/how-to-split-text-without-spaces-into-list-of-words), utilizando programação dinâmica em que se baseia na frequência em que uma palavra aparece, (nesse caso uma frequência decrescente), criando um “best match” de palavra na comparação. Para isso utilizamos o nosso dicionario de quebra e definimos o modelo de distribuição das palavras independentes.  Adaptamos a solução para nosso processo de score e paralelismo (e python 3) e ele se demonstrou efetivo, tornando o nosso programa otimizado em sua solução de quebra.

@@ -1,0 +1,24 @@
+strict graph "recomendações" {
+
+  "carlos"
+  "joaquim"
+  "amanda"
+  "saulo"
+  "tereza"
+  "abacate"
+  "banana"
+  "laranja"
+  "morango"
+  "uva"
+
+  "carlos" -- "banana"  [peso=2]
+  "carlos" -- "uva"  [peso=1]
+  "carlos" -- "morango"  [peso=1]
+  "joaquim" -- "morango"  [peso=2]
+  "joaquim" -- "uva"  [peso=1]
+  "amanda" -- "abacate"  [peso=3]
+  "amanda" -- "uva"  [peso=1]
+  "saulo" -- "abacate"  [peso=1]
+  "tereza" -- "uva"  [peso=1]
+
+}

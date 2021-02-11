@@ -1,0 +1,29 @@
+=================================================
+Implementador por:
+Arianne de Paula Bortolan GRR20140220
+=================================================
+
+Arquivos Utilizados para execução do programa:
+-------------------------------------------------
+campo.c - original fornecido para exemplo
+
+controlador.c - original fornecido para exemplo
+
+jogador.c - IA de ambos os jogadores, para iniciar deve se escolher o lado executando ./jogador d ou ./jogador e
+
+makefile - makefile do programa, para compilar o arquivo jogador deve se realizar: make jogador.
+
+redis.conf - original fornecido para exemplo.
+
+-------------------------------------------------
+Estratégia adotada:
+-------------------------------------------------
+Dumbplayer: a lógica de funcionamento de IA adotada é que o jogador irá posiciona aleatoriamente
+jogadores e após verificar que existem mais de dois jogadores posicionados, tentará mover a bola,
+caso seja invalido, ele posicionará mais jogadores e assim vai.
+Sempre tentando acertar o gol, e verificando o resultado anterior de sua jogada.
+A IA não analisa o passo que dará futuramente, e sim, somente os passos já dados e o estado atual do mapa de jogo.
+
+-------------------------------------------------
+Bugs Conhecidos: Por algum motivo o controlador não reconheceu chutes ao gol fazendo com que o jogador "encha" o campo de jogadores e mesmo tentando chutar ao gol o controlador não reconhece como jogada válida. 
+-------------------------------------------------

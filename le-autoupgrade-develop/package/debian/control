@@ -1,0 +1,16 @@
+Source: le-autoupgrade
+Section: admin
+Priority: important
+Maintainer: C3SL <contato@c3sl.ufpr.br>
+Uploaders: Diego Pasqualin <dpasqualin@c3sl.ufpr.br>, Andre Luis da Silva Machado <alsm14@inf.ufpr.br>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Vcs-Git: https://gitlab.c3sl.ufpr.br/le6/le-autoupgrade.git
+
+Package: le-autoupgrade
+Architecture: all
+Depends: ${misc:Depends}, unattended-upgrades
+Recommends: le-help
+Description: Set up the system to check for updates daily.
+ This package will configure unattended-upgrades to verify everyday for new
+ upgrades in the LE6 repository, as well as Ubuntu 16.04 repository.

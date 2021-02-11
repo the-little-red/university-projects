@@ -1,0 +1,17 @@
+Package: *
+Pin: origin repo.c3sl.ufpr.br
+Pin-Priority: 990
+
+Package: *
+Pin: release n=xenial
+Pin-Priority: 100
+
+Package: *
+Pin: release n=xenial-updates
+Pin-Priority: 100
+
+# We used to package a version of the unattended-upgrades package, but now
+# we want the official one to be installed
+Package: unattended-upgrades
+Pin: release n=xenial
+Pin-Priority: 1000

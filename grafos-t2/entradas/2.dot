@@ -1,0 +1,9 @@
+strict graph "second" {
+  A -- B
+  A -- C
+  A -- F
+  B -- D
+  B -- E
+  B -- F
+  C -- G
+}

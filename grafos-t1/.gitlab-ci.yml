@@ -1,0 +1,29 @@
+
+stages:
+  - test
+  - deploy
+before_script:
+  - apt-get update -y
+  - apt-get upgrade -y
+  - apt-get install gcc make -y
+  - apt-get install graphviz-dev graphviz -y
+
+test:
+  stage: test
+  script:
+    - cd t1/
+    - make
+    - ./teste < ../testes/1.dot
+    - ./teste < ../testes/2.dot
+    - ./teste < ../testes/3.dot
+  tags:
+    - debian
+
+deploy:
+  stage: deploy
+  artifacts:
+    name: arianne-matheus.tar.gz
+  script:
+    - tar -czvf arianne-matheus.tar.gz t1
+  tags:
+    - debian

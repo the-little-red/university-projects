@@ -1,0 +1,20 @@
+Trabalho 2 - Algoritmos e Teoria dos Grafos - 2018/2
+-------------------------------------------------------
+Arianne de Paula Bortolan GRR20140220
+Matheus de Campos Horstmann GRR20158600
+-------------------------------------------------------
+
+Optamos por utilizar heap em nosso programa para a solução de busca lexicográfica.
+Fizemos essa escolha nos inspirando no algormitmo do Alessandro Elias, solução de emparelhamentos,
+(GitHub: https://github.com/alessandro11/graph-work3/).
+Apesar do algoritmo inspirador, na nossa solução teve que ser diferente, pois as entradas na função eram diferentes,
+ainda assim é importante credita-lo, pois isso nos influenciou nessa escolha vital (heap) para nossa solução.
+
+Bugs conhecidos:
+Fizemos vários testes com o valgrid, não há memory leak
+Não encontramos nenhum bug na execução do algoritmo.
+Notamos que ao realizar o make
+ocorre o warning:  warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+Porém este warning é no arquivo teste.c o qual não foi modificado.
+
+Agradecemos a Richard Stallman e toda a comunidade do GDB, pois sem ela este trabalho estaria cheio de bugs.

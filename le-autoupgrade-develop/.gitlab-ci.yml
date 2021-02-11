@@ -1,0 +1,75 @@
+## Template para empacotamento utilizando o Gitlab-ci.
+
+stages:
+    - lint
+    - build
+    - test
+    - deploy
+
+lint_shell:
+  stage: lint
+  tags:
+    - debian-packaging
+  script:
+    - ./.linter_shell.sh
+
+build:
+  stage: build
+  artifacts:
+    paths:
+      - build/
+  tags:
+    - debian-packaging
+  script:
+    - ./.build.sh
+
+test:
+  stage: test
+  tags:
+    - ubuntu
+    - regular
+  script:
+    - apt-get update && apt-get install -y wget
+    - echo "deb http://repo.c3sl.ufpr.br/le6/ unstable main" > /etc/apt/sources.list.d/le6.list
+    - wget -O- http://repo.c3sl.ufpr.br/le6/le.c3sl.ufpr.br.key | apt-key add -
+    - echo "Installation test:"
+    - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install $(pwd)/build/*.deb language-pack-gnome-pt language-pack-pt-base
+    - echo "Removal test:"
+    - pkg_name=$(head -n 1 package/debian/changelog | cut -d' ' -f1)
+    - DEBIAN_FRONTEND=noninteractive apt -y remove $pkg_name
+  dependencies:
+    - build
+
+deploy_for_unstable:
+  stage: deploy
+  only:
+      - develop
+  tags:
+    - debian-packaging
+  script:
+    - ./.deploy.sh
+  dependencies:
+    - build
+
+deploy_for_testing:
+  stage: deploy
+  only:
+      - /^rc-.*$/
+  tags:
+    - debian-packaging
+  script:
+    - ./.deploy.sh
+  dependencies:
+    - build
+
+deploy_for_stable:
+  stage: deploy
+  when: manual
+  only:
+      - master
+  tags:
+    - debian-packaging
+  script:
+    - ./.deploy.sh
+  dependencies:
+    - build

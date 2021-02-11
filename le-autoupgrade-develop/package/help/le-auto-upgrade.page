@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="auto-upgrade">
+  <info>
+    <link type="guide" xref="index" />
+    <revision version="0.1" date="2017-11-30" status="stub"/>
+
+    <credit type="author copyright">
+      <name>Centro de Computação Científica e Software Livre (C3SL)</name>
+      <email>contato@c3sl.ufpr.br</email>
+      <years>2017</years>
+    </credit>
+
+  </info>
+
+  <title>Atualização automática</title>
+
+  <comment>
+    <cite date="2017-11-30" href="rsc15@inf.ufpr.br">Rafael Sanfelice Castilho</cite>
+  </comment>
+
+  <p>O Linux Educacional 6 possui um sistema que automaticamente atualiza seus pacotes diariamente.</p>
+  <p>Esta funcionalidade foi implementada para que não seja necessário atualizar manualmente o LE sempre que atualizações estiverem disponiveis.</p>
+  <p>Caso deseje desabilitar as atualizações automáticas, é possível fazê-lo via painel de controle</p>
+</page>

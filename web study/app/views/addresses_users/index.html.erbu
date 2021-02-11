@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Addresses Users</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Address</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @addresses_users.each do |addresses_user| %>
+      <tr>
+        <td><%= addresses_user.user %></td>
+        <td><%= addresses_user.address %></td>
+        <td><%= link_to 'Show', addresses_user %></td>
+	<% if is_admin? %>
+        	<td><%= link_to 'Edit', edit_addresses_user_path(addresses_user) %></td>
+        	<td><%= link_to 'Destroy', addresses_user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	<% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<% if is_admin? %>
+	<%= link_to 'New Addresses user', new_addresses_user_path %>
+<% end %>

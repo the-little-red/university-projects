@@ -1,0 +1,10 @@
+ strict graph "number1" {
+
+    "C" [color="#110000"]
+    "B" [color="#FFFFFF"]
+    "A" [color="#F1F1F1"]
+
+    "B" -- "C"
+    "A" -- "B"
+    "C" -- "A"
+}

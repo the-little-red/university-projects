@@ -1,0 +1,11 @@
+strict graph "recomendações" {
+
+  "c1"
+  "c2"
+  "pa"
+  "pb"
+  "pc"
+
+  "c2" -- "pa"  [peso=1]
+
+}

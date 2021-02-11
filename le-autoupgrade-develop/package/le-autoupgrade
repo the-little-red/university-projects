@@ -1,0 +1,68 @@
+#!/bin/bash
+
+# Copyright (C) 2018 Centro de Computacao Cientifica e Software Livre
+# Departamento de Informatica - Universidade Federal do Parana - C3SL/UFPR
+#
+# This file is part of le-autoupgrade
+#
+# le-autoupgrade is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,
+# USA.
+
+function enable_autoupgrades() {
+    sed -i s/\"0\"/\"1\"/ /etc/apt/apt.conf.d/20auto-upgrades
+    sed -i s/\"0\"/\"1\"/ /etc/apt/apt.conf.d/99le6-auto-upgrade.conf
+}
+
+function disable_autoupgrades() {
+    sed -i s/\"1\"/\"0\"/ /etc/apt/apt.conf.d/20auto-upgrades
+    sed -i s/\"1\"/\"0\"/ /etc/apt/apt.conf.d/99le6-auto-upgrade.conf
+}
+
+function show_help() {
+    echo "Usage: le-autoupgrade [OPTION]"
+    echo
+    echo "  -h, --help     display this help."
+    echo "  -e, --enable   enable le-autoupgrade."
+    echo "  -d, --disable  disable le-autoupgrade."
+}
+
+while test $# -gt 0
+do
+    case $1 in
+        --enable|-e)
+            enable_autoupgrades
+            exit 0
+            ;;
+        --disable|-d)
+            disable_autoupgrades
+            exit 0
+            ;;
+        --help|-h)
+            show_help
+            exit 0
+            ;;
+        "")
+            echo "le-autoupgrade: missing operand"
+            echo "Try 'le-autoupgrade --help' for more information."
+            exit 1
+            ;;
+        *)
+            echo "le-autoupgrade: invalid option '$1'"
+            echo "Try 'le-autoupgrade --help' for more information."
+            exit 1
+            ;;
+    esac
+done
+

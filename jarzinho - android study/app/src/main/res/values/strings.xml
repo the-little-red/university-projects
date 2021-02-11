@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TheAnswer</string>
+    <string name="name">Nome</string>
+    <string name="novo">Criar\n novo jogo</string>
+    <string name="entrarSala">Entrar em jogo\n existente</string>
+    <string name="rules">Regras</string>
+    <string name="phrases">Galhofeiros</string>
+    <string name="lies">Mentirinhas</string>
+    <string name="back">Voltar</string>
+    <string name="enterGame">Entrar no jogo</string>
+    <string name="startGame">Começar o jogo</string>
+    <string name="rule">Em The Answer os jogadores deverão se fazer perguntas durante 5 minutos a fim de descobrir qual deles é o espião.
+        \nPorém cuidado, perguntas muito especificas podem indica o lugar em que estão e assim o espião pode ganhar o jogo. O objetivo de todos é descobrir quem é o espião sem revelar seus papeis e local. </string>
+    <string name="criar_um_novo_jogo">Criar um novo jogo</string>
+    <string name="apelido">Insira um Apelido</string>
+</resources>

@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Users</h1>
+
+<table>
+  <thead>
+    <tr>
+	<% if is_admin? %>
+		<th>Id</th>
+	<% end %>
+      <th>Username</th>
+      <th>Password</th>
+      <th>Admin</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+	<% if is_admin? %>
+		<td><%= user.id %></td>
+	<% end %>
+        <td><%= user.username %></td>
+        <td><%= user.obfuscate(user.password) %></td>
+	<td><%= user.isadmin %></td>
+        <td><%= link_to 'Show', user %></td>
+	<% if is_admin? %>
+	        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+        	<td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	<% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<% if is_admin? %>
+	<%= link_to 'New User', new_user_path %>
+<% end %>

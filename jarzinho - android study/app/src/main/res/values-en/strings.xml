@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TheAnswer</string>
+    <string name="name">Name</string>
+    <string name="novo">New game</string>
+    <string name="entrarSala">Enter in a \n Game Room</string>
+    <string name="rules">Rules</string>
+    <string name="phrases">SlapWorthIt</string>
+    <string name="lies">Little Lies</string>
+    <string name="back">Back</string>
+    <string name="enterGame">Enter game</string>
+    <string name="startGame">Start game</string>
+    <string name="rule">Players then start asking each other questions during the intense 5-minute rounds.
+        Non-Spy players want to ask questions and give answers that prove to the other players that they know where they are.
+        But watch out! If your questions and answers are too specific, the Spy will easily guess the location and win. </string>
+    <string name="criar_um_novo_jogo">Create a new game</string>
+    <string name="apelido">Insert your nickname</string>
+</resources>

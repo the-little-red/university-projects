@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export PATH=/home/soft/likwid/bin:/home/soft/likwid/sbin:$PATH
+export LD_LIBRARY_PATH=/home/soft/likwid/lib:$LD_LIBRARY_PATH
+LIKWID_CMD="likwid-perfctr -f -C $1 -g $2 -m"
+shift 2
+
+${LIKWID_CMD} $*
+
+# Para obter lista de grupos de indicadores de performance:
+#      likwid-perfctr -a
+
+# Para obter topologia dos processadores
+#      likwid-topology -c -g

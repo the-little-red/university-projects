@@ -1,0 +1,5 @@
+doc/* usr/share/doc/
+99le6-auto-upgrade.conf /etc/apt/apt.conf.d/
+99le6-auto-upgrade.pref /etc/apt/preferences.d/
+le-autoupgrade usr/bin/
+help/le-auto-upgrade.page usr/share/help-langpack/pt_BR/le-help/

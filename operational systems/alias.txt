@@ -1,0 +1,4 @@
+lp -d lprd2 ->imprimir c3
+ssh -X apb14@macalan.c3sl.ufpr.br
+git add . && git commit -m "push de bkp" && git push
+

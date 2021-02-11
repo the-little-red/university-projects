@@ -1,0 +1,14 @@
+digraph  "second" {
+  A -> B
+  A -> C
+  A -> F
+  B -> D
+  B -> E
+  B -> F
+  C -> G
+  G -> A
+  D -> B
+  D -> G
+  E -> F
+  G -> E
+}

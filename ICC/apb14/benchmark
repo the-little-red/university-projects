@@ -1,0 +1,79 @@
+#!/bin/bash
+
+(cd v2/ && make clean && make)
+(cd v1/ && make clean && make)
+
+for i in 32 64 128 256 512 1000 2000 4000
+do
+
+##################################
+#		V1
+##################################
+	echo $i >> cols.dat
+	./perfctr 0 L3 v1/cgSolver -n $i -k 7 -p 0.5 -i 10 -o temp.txt > MEM_$i.dat
+
+	tail -n 3 temp.txt | head -n 1 | grep -oE '[^ ]+$' >> itertime1.dat
+	tail -n 4 temp.txt | head -n 1 | grep -oE '[^ ]+$' >> residuotime1.dat
+
+	cat MEM_$i.dat | gawk '
+		match($0, /iter/, m) {N=m[1]; PRINT=1}
+		match($0, /L3 bandwidth.* ([0-9]+.[0-9]+)/, m) {CR=m[1]; if(PRINT==1) print CR; PRINT=0}' >> itermem1.dat
+
+	cat MEM_$i.dat | gawk '
+		match($0, /residuo/, m) {N=m[1]; PRINT=1}
+		match($0, /L3 bandwidth.* ([0-9]+.[0-9]+)/, m) {CR=m[1]; if(PRINT==1) print CR; PRINT=0}' >> residuomem1.dat
+
+	./perfctr 0 L2CACHE v1/cgSolver -n $i -k 7 -p 0.5 -i 10 -o temp.txt > MEM_$i.dat
+
+	cat MEM_$i.dat | gawk '
+		match($0, /iter/, m) {N=m[1]; PRINT=1}
+		match($0, /L2 miss ratio.* ([0-9]+.[0-9]+)/, m) {CR=m[1]; if(PRINT==1) print CR; PRINT=0}' >> itermiss1.dat
+
+	cat MEM_$i.dat | gawk '
+		match($0, /residuo/, m) {N=m[1]; PRINT=1}
+		match($0, /L2 miss ratio.* ([0-9]+.[0-9]+)/, m) {CR=m[1]; if(PRINT==1) print CR; PRINT=0}' >> residuomiss1.dat
+
+
+##################################
+#		V2
+##################################
+	./perfctr 0 L3 v2/cgSolver -n $i -k 7 -p 0.5 -i 10 -o temp.txt > MEM_$i.dat
+
+	tail -n 3 temp.txt | head -n 1 | grep -oE '[^ ]+$' >> itertime2.dat
+	tail -n 4 temp.txt | head -n 1 | grep -oE '[^ ]+$' >> residuotime2.dat
+
+	cat MEM_$i.dat | gawk '
+		match($0, /iter/, m) {N=m[1]; PRINT=1}
+		match($0, /L3 bandwidth.* ([0-9]+.[0-9]+)/, m) {CR=m[1]; if(PRINT==1) print CR; PRINT=0}' >> itermem2.dat
+
+	cat MEM_$i.dat | gawk '
+		match($0, /residuo/, m) {N=m[1]; PRINT=1}
+		match($0, /L3 bandwidth.* ([0-9]+.[0-9]+)/, m) {CR=m[1]; if(PRINT==1) print CR; PRINT=0}' >> residuomem2.dat
+
+	./perfctr 0 L2CACHE v2/cgSolver -n $i -k 7 -p 0.5 -i 10 -o temp.txt > MEM_$i.dat
+
+	cat MEM_$i.dat | gawk '
+		match($0, /iter/, m) {N=m[1]; PRINT=1}
+		match($0, /L2 miss ratio.* ([0-9]+.[0-9]+)/, m) {CR=m[1]; if(PRINT==1) print CR; PRINT=0}' >> itermiss2.dat
+
+	cat MEM_$i.dat | gawk '
+		match($0, /residuo/, m) {N=m[1]; PRINT=1}
+		match($0, /L2 miss ratio.* ([0-9]+.[0-9]+)/, m) {CR=m[1]; if(PRINT==1) print CR; PRINT=0}' >> residuomiss2.dat
+
+done
+
+paste cols.dat itertime2.dat itertime1.dat residuotime2.dat residuotime1.dat > TIME.dat
+rm *time*.dat
+paste cols.dat itermem2.dat itermem1.dat residuomem2.dat residuomem1.dat > MEM.dat
+rm *mem*.dat
+paste cols.dat itermiss2.dat itermiss1.dat residuomiss2.dat residuomiss1.dat > MISS.dat
+rm *miss*.dat
+
+rm MEM_*.dat
+rm cols.dat
+rm temp.txt
+
+
+
+# gnuplot -e "marker='FLOPS_AVX';metric='CPI';filename='FLOPS_AVX.dat';opt='FLOPS_AVX.png'" plot.plg
+gnuplot -e "filename='TIME.dat'" plot.plg

@@ -1,0 +1,39 @@
+set terminal png
+set xlabel "Tamanho do Sistema (N variáveis) "
+set logscale x 2
+
+set style line 1 \
+    linecolor rgb '#0060ad' \
+    linetype 1 linewidth 2 \
+    pointtype 7 pointsize 1.5
+
+set style line 2 \
+    linecolor rgb '#dd181f' \
+    linetype 1 linewidth 2 \
+    pointtype 5 pointsize 1.5
+
+set style line 3 \
+    linecolor rgb '#76ff03' \
+    linetype 1 linewidth 2 \
+    pointtype 9 pointsize 1.5
+
+set style line 4 \
+    linecolor rgb '#6200ea' \
+    linetype 1 linewidth 2 \
+    pointtype 11 pointsize 1.5
+
+
+set ylabel "Tempo Execução (s)"
+set output "tempo.png"
+plot 'TIME.dat' using 1:2 title 'op1 v1' with linespoints linestyle 1 , 'res/TIME.dat' using 1:3 title 'op1 v2' with linespoints linestyle 2, 'res/TIME.dat' using 1:4 title 'op2 v1' with linespoints linestyle 3, 'res/TIME.dat' using 1:5 title 'op2 v2' with linespoints linestyle 4
+replot
+
+set ylabel "Banda memoria"
+set output "mem.png"
+plot 'MEM.dat' using 1:2 title 'op1 v1' with linespoints linestyle 1 , 'res/MEM.dat' using 1:3 title 'op1 v2' with linespoints linestyle 2, 'res/MEM.dat' using 1:4 title 'op2 v1' with linespoints linestyle 3, 'res/MEM.dat' using 1:5 title 'op2 v2' with linespoints linestyle 4
+replot
+
+set ylabel "Cache miss ratio"
+set output "miss.png"
+plot 'MISS.dat' using 1:2 title 'op1 v1' with linespoints linestyle 1 , 'res/MISS.dat' using 1:3 title 'op1 v2' with linespoints linestyle 2, 'res/MISS.dat' using 1:4 title 'op2 v1' with linespoints linestyle 3, 'res/MISS.dat' using 1:5 title 'op2 v2' with linespoints linestyle 4
+replot

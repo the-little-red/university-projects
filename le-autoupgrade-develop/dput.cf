@@ -1,0 +1,9 @@
+[repo]
+fqdn = repo.c3sl.ufpr.br
+method = scp
+login = repository
+incoming = /home/repository/www/le6/incoming
+allow_unsigned_uploads = 1
+ssh_config_options = User=repository
+                     StrictHostKeyChecking=no
+post_upload_command = ssh -l repository -i ~/.ssh/id_rsa repo.c3sl.ufpr.br "reprepro -Vb /home/repository/www/le6 processincoming default"

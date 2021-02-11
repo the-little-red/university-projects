@@ -1,0 +1,14 @@
+Aluna: Arianne de Paula Bortolan GRR20140220
+
+Estratégia:
+
+  A estratégias utilizada consiste em realizar a pintura do tabuleiro com uma cor que seja vizinha ao conjunto atual.
+  E entendo identificar a distância que o novo conjunto teria dos demais, em resumo, após pintar um bloco no tabuleiro,
+  todos os vizinhos desse bloco teriam distância 1, e os vizinhos dos vizinhos distância 2 (semelhante a uma arborescencia de busca em largura).
+  Concluindo isso, é então feita a soma das distancias dos quadrados que não foram pintados, será escolhida a cor que resulta na menor soma de distâncias nesse grafo.
+
+Estruturas:
+
+  Uma biblioteca auxiliar para a montagem de um grafo, neste grafo, os vertices (nós) representam um bloco de cores,
+  enquanto suas arestas direcionam para os blocos de cores vizinho.
+  Em resumo, o grafo é feito por uma lista de vertices enquanto a sua lista de arestas são os vizinhos dos vertices.

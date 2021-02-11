@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pretzel.theanswer.SalaEntrar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="106dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="Entrar em uma Sala"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:fontFamily="casual"
+        app:layout_constraintBottom_toTopOf="@+id/nome2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nome2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/apelido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/salaEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sala"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:grid="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/choice_grid"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="4dp"
+        grid:alignmentMode="alignBounds"
+        grid:columnCount="5"
+        grid:layout_constraintBottom_toBottomOf="parent"
+        grid:layout_constraintEnd_toEndOf="parent"
+        grid:layout_constraintHorizontal_bias="1.0"
+        grid:layout_constraintStart_toStartOf="parent"
+        grid:layout_constraintTop_toBottomOf="@+id/button3"
+        grid:rowOrderPreserved="false"
+        grid:useDefaultMargins="true">
+
+        <ImageButton
+            android:id="@+id/ave"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ave" />
+
+        <ImageButton
+            android:id="@+id/cachorro"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:adjustViewBounds="true"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:cropToPadding="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cachorro" />
+
+        <ImageButton
+            android:id="@+id/camelo"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/camelo" />
+
+        <ImageButton
+            android:id="@+id/cavalo"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:adjustViewBounds="true"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:cropToPadding="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cavalo" />
+
+        <ImageButton
+            android:id="@+id/coelho"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:adjustViewBounds="true"
+            android:background="#f0da5e"
+            android:baselineAlignBottom="false"
+            android:clickable="true"
+            android:cropToPadding="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/coelho" />
+
+        <ImageButton
+            android:id="@+id/elefante"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:adjustViewBounds="true"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:cropToPadding="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/elefante" />
+
+        <ImageButton
+            android:id="@+id/ganso"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ganco" />
+
+        <ImageButton
+            android:id="@+id/gato"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gato" />
+
+        <ImageButton
+            android:id="@+id/girafa"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/girafa" />
+
+        <ImageButton
+            android:id="@+id/leao"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/leao" />
+
+        <ImageButton
+            android:id="@+id/lobo"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lobo" />
+
+        <ImageButton
+            android:id="@+id/macaco"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/macaco" />
+
+        <ImageButton
+            android:id="@+id/pato"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pato"
+            tools:src="@drawable/pato" />
+
+        <ImageButton
+            android:id="@+id/peixe"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/peixe" />
+
+        <ImageButton
+            android:id="@+id/rato"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rato" />
+
+        <ImageButton
+            android:id="@+id/tartaruga"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tartaruga" />
+
+        <ImageButton
+            android:id="@+id/tigre"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tigre" />
+
+        <ImageButton
+            android:id="@+id/touro"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/touro" />
+
+        <ImageButton
+            android:id="@+id/vaca"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vaca" />
+
+        <ImageButton
+            android:id="@+id/zebra"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="#f0da5e"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/zebra" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
+        android:onClick="EntraSala"
+        android:text="Entrar na Sala"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/salaEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome2" />
+
+</android.support.constraint.ConstraintLayout>

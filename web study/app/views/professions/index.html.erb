@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Professions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Salary</th>
+      <th>User</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @professions.each do |profession| %>
+      <tr>
+        <td><%= profession.name %></td>
+        <td><%= profession.salary %></td>
+        <td><%= User.find_by(id: profession.user).username %></td>
+        <td><%= link_to 'Show', profession %></td>
+	<% if is_admin? %>
+        	<td><%= link_to 'Edit', edit_profession_path(profession) %></td>
+        	<td><%= link_to 'Destroy', profession, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	<% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<% if is_admin? %>
+	<%= link_to 'New Profession', new_profession_path %>
+<% end %>

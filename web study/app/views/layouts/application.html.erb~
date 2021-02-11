@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>T5</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<style>
+	//.header
+	//{
+	//	background-color:#00695C;
+	//	font-family: 'Open Sans Condensed', sans-serif;
+	//	font-size: 200%;
+	//	margin:25px;
+	//	border-radius:10px;
+	//	padding:5px;
+	//}
+
+	//#credits
+	//{
+	//	background-color:#aaa;
+	//	width:100px;
+	//}
+
+	//#stuff
+	//{
+	//}
+
+	//#navbar
+	//{
+	//	padding:2px;
+	//}
+
+	body {
+		background-color: #EEEEEE;
+	}
+
+	.box {
+		background-color: #EEEEEE;
+		border-radius: 10px;
+	}
+
+	.foto {
+		position: relative;
+		left: 50%;
+		height: 200px;
+		width: 200px;
+		border-radius: 20px;
+		margin-left:-100px;
+		margin-top: 20px;
+		border-style: solid;
+		border-color: #424242;
+		display: block;
+	}
+
+	.social {
+		position: relative;
+		left: 30px;
+		display: inline;
+		height: 80px;
+		width: 80px;
+		margin-top: 10px;
+		border-radius: 20px;
+		clear: both;
+	}
+
+	.menu {
+		width: 300px;
+		height: 350px;
+		position: fixed;
+		float: left;
+		background-color: #003355;
+		margin: 10px;
+		padding: 0px;
+		border-radius: 5px;
+	}
+
+	.conteudo {
+		float: left;
+		width: 70%;
+		min-height: 30px;
+		margin-top: 10px;
+		margin-bottom: 25px;
+		margin-left: 320px;
+		margin-right: 2%;
+		padding: 20px;
+		padding-left: 50px;
+		background-color: rgba(100, 100, 100, 0.4);
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 200%;
+		color: black;
+		border-radius: 5px;
+	}
+
+	.img_canto {
+		margin: 20px;
+		float: right;
+		margin-top: 30%;
+	}
+
+	#information {
+		position: relative;
+		left: 50%;
+		margin-left: 10px;
+		clear: both;
+		width: 90%;
+		margin-top: 10px;
+		margin-left: -45%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		display: column;
+		clear: both;
+		cursor: pointer;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 120%;
+		color: black;
+		min-width: 100px;
+		text-decoration: none;
+	}
+
+	#information:hover {
+		background-color: #353535;
+		cursor: pointer;
+		color: #D7D8FF;
+		style="text-decoration: none;
+	}
+
+</style>
+<body>
+<div class="menu">
+	<div class="box" style="text-align: center; margin: 20px;">
+		<% if logged_in? %>
+			Logged in as <strong> <%= @current_user.username =%> </strong>
+		<% else %>
+			You are not logged in, please make your login.		
+		<% end %>
+	</div>
+	<section class="box" id="information" style="text-decoration: none;">
+		<%= link_to 'User', users_path %>
+	</section>
+	<section class="box" id="information" style="text-decoration: none;">
+		<%= link_to 'Email', emails_path %>
+	</section>
+	<section class="box" id="information" style="text-decoration: none;">
+		<%= link_to 'Address', addresses_path %>
+	</section>
+	<section class="box" id="information" style="text-decoration: none;">
+		<%= link_to 'Profession', professions_path %>
+	</section>
+	<% if is_admin? %>
+		<section class="box" id="information">
+			<%= link_to 'Address-User', addresses_users_path%>
+		</section>
+	<% end %>
+	<% if logged_in? %>
+		<section class="box" id="information" style="text-decoration: none;">
+			<%= link_to "logout",    '/logout' %>
+		</section>
+	<% end %>
+</div>
+
+<div class="conteudo">
+	<div style="text-align: center;">
+		<% if logged_in? %>
+			Logged in as <strong> <%= @current_user.username =%> </strong>
+		<% else %>
+			You are not logged in, please make your login.		
+		<% end %>
+	</div>
+</div>
+<div class="conteudo">
+	<%= yield %>
+</div>
+</body>
+</html>

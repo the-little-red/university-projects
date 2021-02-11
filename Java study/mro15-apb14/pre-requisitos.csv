@@ -1,0 +1,387 @@
+COD_CURSO,NOME_UNIDADE,NUM_VERSAO,DESCR_ESTRUTURA,COD_DISCIPLINA,NOME_DISCIPLINA,COD_PRE_REQ,NOME_PRE_REQ,TIPO_REQUISITO,NUM_REFERENCIA,ITEM_TABELA,ID_ESTRUTURA_CUR,PERIODO_IDEAL
+
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI166,Metodologia Científica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CM005,Álgebra Linear,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CM045,Geometria Analítica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CE003,Estatística II,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,2
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,3
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI166,Metodologia Científica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CM005,Álgebra Linear,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CM045,Geometria Analítica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI058,REDE DE COMPUTADORES I,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CM045,Geometria Analítica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CM005,Álgebra Linear,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI166,Metodologia Científica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI059,INTRODUCAO A TEORIA DA COMPUTACAO,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI058,REDE DE COMPUTADORES I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CM045,Geometria Analítica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CM005,Álgebra Linear,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI166,Metodologia Científica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI061,REDE DE COMPUTADORES II,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI166,Metodologia Científica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CM005,Álgebra Linear,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CM045,Geometria Analítica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI062,TECNICAS ALTERNATIVAS DE PROGRAMACAO,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI064,SOFTWARE BASICO I,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,3
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI166,Metodologia Científica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CM005,Álgebra Linear,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CM045,Geometria Analítica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI065,ALGORITMOS E TEORIA DOS GRAFOS,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI067,OFICINA DE COMPUTACAO,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,2
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI166,Metodologia Científica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CM005,Álgebra Linear,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CM045,Geometria Analítica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI162,Engenharia de Requisitos,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CM045,Geometria Analítica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CM005,Álgebra Linear,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI166,Metodologia Científica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI163,Projeto de Software,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CM045,Geometria Analítica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CM005,Álgebra Linear,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI166,Metodologia Científica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI164,Introdução à Computação Científica,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI166,Metodologia Científica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CM005,Álgebra Linear,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CM045,Geometria Analítica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI165,Análise de Algoritmos,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI166,Metodologia Científica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CM005,Álgebra Linear,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CM045,Geometria Analítica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI209,INTELIGENCIA ARTIFICIAL,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,2
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI166,Metodologia Científica,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CM005,Álgebra Linear,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CM045,Geometria Analítica,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI211,CONSTRUCAO DE COMPILADORES,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,3
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CM005,Álgebra Linear,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CM045,Geometria Analítica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI215,SISTEMAS OPERACIONAIS,CI166,Metodologia Científica,Disciplina,,1,7406,4
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CM005,Álgebra Linear,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CM045,Geometria Analítica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI166,Metodologia Científica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI218,SISTEMAS DE BANCOS DE DADOS,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI166,Metodologia Científica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CM005,Álgebra Linear,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CM045,Geometria Analítica,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI220,TEORIA DE SISTEMAS,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,6
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CM045,Geometria Analítica,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CM005,Álgebra Linear,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI166,Metodologia Científica,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI221,ENGENHARIA DE SOFTWARE,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,7
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CI237,MATEMATICA DISCRETA,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,3
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CM005,Álgebra Linear,CM045,Geometria Analítica,Disciplina,,1,7406,2
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,CM202,CALCULO DIFERENCIAL E INTEGRAL II,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,2
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI067,OFICINA DE COMPUTACAO,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI068,CIRCUITOS LOGICOS,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI166,Metodologia Científica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI210,PROJETOS DIGITAIS E MICROPROCESSADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI237,MATEMATICA DISCRETA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CM005,Álgebra Linear,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CM045,Geometria Analítica,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CM046,INTRODUCAO A ALGEBRA,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CM201,CALCULO DIFERENCIAL E INTEGRAL I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CM202,CALCULO DIFERENCIAL E INTEGRAL II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI064,SOFTWARE BASICO I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI055,ALGORITMOS E ESTRUTURAS DE DADOS I,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Obrigatórias,SA214,INTRODUCAO A TEORIA GERAL DA ADMINISTRACAO,CI056,ALGORITMOS E ESTRUTURAS DE DADOS II,Disciplina,,1,7406,5
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI085,TOPICOS EM COMPUTACAO GRAFICA,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI085,TOPICOS EM COMPUTACAO GRAFICA,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI085,TOPICOS EM COMPUTACAO GRAFICA,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI085,TOPICOS EM COMPUTACAO GRAFICA,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI085,TOPICOS EM COMPUTACAO GRAFICA,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI087,TOPICOS EM BANCO DE DADOS,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI087,TOPICOS EM BANCO DE DADOS,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI087,TOPICOS EM BANCO DE DADOS,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI087,TOPICOS EM BANCO DE DADOS,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI087,TOPICOS EM BANCO DE DADOS,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI088,TOPICOS EM SISTEMAS DISTRIBUIDOS,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI088,TOPICOS EM SISTEMAS DISTRIBUIDOS,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI088,TOPICOS EM SISTEMAS DISTRIBUIDOS,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI088,TOPICOS EM SISTEMAS DISTRIBUIDOS,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI088,TOPICOS EM SISTEMAS DISTRIBUIDOS,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI090,TOPICOS EM ENGENHARIA DE SOFTWARE,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI090,TOPICOS EM ENGENHARIA DE SOFTWARE,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI090,TOPICOS EM ENGENHARIA DE SOFTWARE,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI090,TOPICOS EM ENGENHARIA DE SOFTWARE,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI090,TOPICOS EM ENGENHARIA DE SOFTWARE,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI091,TOPICOS DE AVALIACAO DE DESEMPENHO,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI091,TOPICOS DE AVALIACAO DE DESEMPENHO,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI091,TOPICOS DE AVALIACAO DE DESEMPENHO,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI091,TOPICOS DE AVALIACAO DE DESEMPENHO,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI091,TOPICOS DE AVALIACAO DE DESEMPENHO,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI092,TOPICOS EM TECNOLOGIAS E APLICACOES,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI092,TOPICOS EM TECNOLOGIAS E APLICACOES,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI092,TOPICOS EM TECNOLOGIAS E APLICACOES,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI092,TOPICOS EM TECNOLOGIAS E APLICACOES,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI092,TOPICOS EM TECNOLOGIAS E APLICACOES,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI094,TOPICOS EM PROCESSAMENTO DE IMAGENS,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI094,TOPICOS EM PROCESSAMENTO DE IMAGENS,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI094,TOPICOS EM PROCESSAMENTO DE IMAGENS,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI094,TOPICOS EM PROCESSAMENTO DE IMAGENS,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI094,TOPICOS EM PROCESSAMENTO DE IMAGENS,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI169,Bioinformática,CE003,Estatística II,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI171,Aprendizado de Máquina,CE003,Estatística II,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI172,Processamento de Imagnes Biomédicas,CI394,Processamento de Imagens,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI204,ADMINISTRACAO DE INFORMATICA,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI204,ADMINISTRACAO DE INFORMATICA,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI204,ADMINISTRACAO DE INFORMATICA,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI204,ADMINISTRACAO DE INFORMATICA,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI204,ADMINISTRACAO DE INFORMATICA,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI205,ADMINISTRACAO DA PRODUCAO P/ INFORMATICA,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI205,ADMINISTRACAO DA PRODUCAO P/ INFORMATICA,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI205,ADMINISTRACAO DA PRODUCAO P/ INFORMATICA,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI205,ADMINISTRACAO DA PRODUCAO P/ INFORMATICA,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI205,ADMINISTRACAO DA PRODUCAO P/ INFORMATICA,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI304,Tópicos em Ciência da Computação IV,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI304,Tópicos em Ciência da Computação IV,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI304,Tópicos em Ciência da Computação IV,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI304,Tópicos em Ciência da Computação IV,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI304,Tópicos em Ciência da Computação IV,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI305,Tópicos em Ciência da Computação V,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI305,Tópicos em Ciência da Computação V,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI305,Tópicos em Ciência da Computação V,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI305,Tópicos em Ciência da Computação V,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI305,Tópicos em Ciência da Computação V,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI309,Tópicos em Inteligência Artificial,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI309,Tópicos em Inteligência Artificial,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI309,Tópicos em Inteligência Artificial,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI309,Tópicos em Inteligência Artificial,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI309,Tópicos em Inteligência Artificial,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI311,Fundamentos Lógicos da Inteligência Artificial,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI311,Fundamentos Lógicos da Inteligência Artificial,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI311,Fundamentos Lógicos da Inteligência Artificial,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI311,Fundamentos Lógicos da Inteligência Artificial,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI311,Fundamentos Lógicos da Inteligência Artificial,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI312,Arquiteturas Avançadas de Computadores,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI312,Arquiteturas Avançadas de Computadores,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI312,Arquiteturas Avançadas de Computadores,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI312,Arquiteturas Avançadas de Computadores,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI312,Arquiteturas Avançadas de Computadores,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI316,Programação Paralela,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI316,Programação Paralela,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI316,Programação Paralela,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI316,Programação Paralela,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI316,Programação Paralela,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI317,Tópicos em Sistemas Operacionais,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI317,Tópicos em Sistemas Operacionais,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI317,Tópicos em Sistemas Operacionais,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI317,Tópicos em Sistemas Operacionais,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI317,Tópicos em Sistemas Operacionais,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI318,Tópicos em Computação Paralela,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI318,Tópicos em Computação Paralela,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI318,Tópicos em Computação Paralela,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI318,Tópicos em Computação Paralela,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI318,Tópicos em Computação Paralela,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI320,Tópicos em Programação de Computadores,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI320,Tópicos em Programação de Computadores,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI320,Tópicos em Programação de Computadores,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI320,Tópicos em Programação de Computadores,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI320,Tópicos em Programação de Computadores,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI339,Complexidade Computacional,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI339,Complexidade Computacional,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI339,Complexidade Computacional,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI339,Complexidade Computacional,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI339,Complexidade Computacional,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI340,Tópicos em Métodos Formais,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI340,Tópicos em Métodos Formais,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI340,Tópicos em Métodos Formais,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI340,Tópicos em Métodos Formais,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI340,Tópicos em Métodos Formais,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI350,Interação Humano-Computador,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI350,Interação Humano-Computador,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI350,Interação Humano-Computador,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI350,Interação Humano-Computador,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI350,Interação Humano-Computador,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI365,Tópicos em Redes de Computadores,CI237,MATEMATICA DISCRETA,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI365,Tópicos em Redes de Computadores,CI212,ORGANIZACAO E ARQUIT DE COMPUTADORES,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI365,Tópicos em Redes de Computadores,CI166,Metodologia Científica,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI365,Tópicos em Redes de Computadores,CI064,SOFTWARE BASICO I,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Optativas,CI365,Tópicos em Redes de Computadores,CI057,ALGORITMOS E ESTRUTURAS DE DADOS III,Disciplina,,1,7407,
+21A,Curso de Ciência da Computação - Bacharelado,2011,Trabalho de Graduação II,CI071,TRABALHO DE GRADUACAO EM ENGENHARIA DE SOFTWARE II,CI070,TRABALHO DE GRADUACAO EM EMGENHARIA DE SOFTWARE I,Disciplina,,1,7419,8
+21A,Curso de Ciência da Computação - Bacharelado,2011,Trabalho de Graduação II,CI073,TRABALHO DE GRADUACAO EM BANCO DE DADOS II,CI072,TRABALHO DE GRADUACAO EM BANCO DE DADOS I,Disciplina,,1,7419,8
+21A,Curso de Ciência da Computação - Bacharelado,2011,Trabalho de Graduação II,CI075,TRAB DE GRADUACAO EM REDES DE COMPUTADORES II,CI074,TRAB DE GRADUACAO EM REDES DE COMPUTADORES I,Disciplina,,1,7419,8
+21A,Curso de Ciência da Computação - Bacharelado,2011,Trabalho de Graduação II,CI253,Trabalho de Graduação em Teoria da Computação II,CI252,Trabalho de Graduação em Teoria da Computação I,Disciplina,,1,7419,8
+21A,Curso de Ciência da Computação - Bacharelado,2011,Trabalho de Graduação II,CI255,Trabalho de Graduação em Sistemas Digitais II,CI255,Trabalho de Graduação em Sistemas Digitais II,Disciplina,,1,7419,8
+21A,Curso de Ciência da Computação - Bacharelado,2011,Trabalho de Graduação II,CI259,Trabalho de Graduação em Interação Humano-Computador II,CI258,Trabalho de Graduação em Interação Humano-Computador I,Disciplina,,1,7419,8
+21A,Curso de Ciência da Computação - Bacharelado,2011,Trabalho de Graduação II,CI261,Trabalho de Graduação em Processamento de Imagens II,CI260,Trabalho de Graduação em Processamento de Imagens I,Disciplina,,1,7419,8

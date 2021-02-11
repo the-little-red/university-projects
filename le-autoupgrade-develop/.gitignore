@@ -1,0 +1,7 @@
+package/debian/files
+package/debian/debhelper-build-stamp
+le-autoupgrade_*.tar.xz
+le-autoupgrade_*.build
+le-autoupgrade_*.dsc
+le-autoupgrade_*.changes
+le-autoupgrade_*.deb

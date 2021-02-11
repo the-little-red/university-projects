@@ -1,0 +1,13 @@
+// Trabalho-2 2017/2 Grafos
+// Arianne P. Bortolan - GRR20140220
+
+INFORMAÇÕES:
+
+O programa atualmente consegue ler e executar as funções de caminhos diametro etc com grafos ponderados.
+
+BUGS OU ERROS CONHECIDOS:
+
+Alguns warnings devido a casts permanecem, outros bugs são falhas de segmentação na execução das funções de ordenacao_topologica e componentes_fortes, a de componentes_fortes se deve a problemas com a biblioteca que acabaram não sendo resolvidos. Apesar dos problemas foi optado por manter  as funções como estão no código, a fim de serem observado o algoritmo e a tentativa de sua implementação.
+
+ESPECIFICAÇÕES RETIRADAS DE:
+http://www.inf.ufpr.br/renato/ci065/trabalho-2.html
